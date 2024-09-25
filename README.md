@@ -110,9 +110,10 @@ By using these models the Random Forest Regressor is considered as the best perf
 
 # Hyperparameter Tuning and saving the model:
 
-
 •	Use GridSearchCV to tune hyperparameters and optimize model performance.
+
 •	Best Parameters: Identified and applied to improve model performance
+
 •	Model Saving: Here we save the best performing model.
 
 # Predictions:
