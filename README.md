@@ -13,15 +13,25 @@ The primary objective of this project is to develop a machine learning model tha
 # Table of Contents:
 
 •	Introduction
+
 •	Data Description
+
 •	Data Collection
+
 •	Data Preprocessing
+
 •	Exploratory Data Analysis (EDA)
+
 •	Feature Selection
+
 •	Model Training
+
 •	Hyperparameter Tuning and saving the model
+
 •	Predictions
+
 •	Conclusion
+
 •	Future Work
 
 
@@ -66,7 +76,7 @@ o	Amount: Target variable, representing the price.
 
 •Label Encoding: Categorical features were encoded using label encoding.
 
-Data Splitting: The dataset was split into training and testing sets.
+•	Data Splitting: The dataset was split into training and testing sets.
 
 # Exploratory Data Analysis (EDA):
 
@@ -86,23 +96,27 @@ RandomForestRegressor: Used to identify important features.
 # Model Training :
 Here various type regression models were trained:
 
-Linear Regression
-Decision Tree Regressor
-Random Forest Regressor
-Gradient Boosting Regressor
-XGBoost Regressor
+•	Linear Regression
+
+•	Decision Tree Regressor
+
+•	Random Forest Regressor
+
+•	Gradient Boosting Regressor
+
+•	XGBoost Regressor
 
 By using these models the Random Forest Regressor is considered as the best performing model
 
 # Hyperparameter Tuning and saving the model:
 
-Use GridSearchCV to tune hyperparameters and optimize model performance.
-Best Parameters: Identified and applied to improve model performance
-Model Saving: Here we save the best performing model.
+
+•	Use GridSearchCV to tune hyperparameters and optimize model performance.
+•	Best Parameters: Identified and applied to improve model performance
+•	Model Saving: Here we save the best performing model.
 
 # Predictions:
 After the saving abd evaluation then we will make the predictions on unseen data and then the results will be displayed.
-
 
 # Conclusion:
 
