@@ -12,17 +12,18 @@ The primary objective of this project is to develop a machine learning model tha
 
 # Table of Contents:
 
-Introduction
-Data Description
-Data Collection
-Data Preprocessing
-Exploratory Data Analysis (EDA)
-Feature Selection
-Model Training
-Hyperparameter Tuning and saving the model
-Predictions
-Conclusion
-Future Work
+•	Introduction
+•	Data Description
+•	Data Collection
+•	Data Preprocessing
+•	Exploratory Data Analysis (EDA)
+•	Feature Selection
+•	Model Training
+•	Hyperparameter Tuning and saving the model
+•	Predictions
+•	Conclusion
+•	Future Work
+
 
 # Introduction:
 The goal of this project is to build a machine learning model that can accurately predict rfeed grain prices based on historical data, geographical information, and temporal factors.
