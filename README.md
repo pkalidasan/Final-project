@@ -1,26 +1,35 @@
 # "Predicting Feed Grain Prices Using Machine Learning: A Data-Driven Approach for Agriculture and Market Analysis"
 
 Source : :https://data.world/cdc2019/agriculture Click here
+Domain name: Agriculture data
 
-Overview:
+# Overview:
 
 This project aims to predict feed grain prices, a crucial factor for the agriculture and farming industries. Accurate price predictions are essential for farmers, suppliers, and market analysts to make informed decisions regarding production, inventory management, and pricing strategies. Given the fluctuating nature of market demand, seasonal trends, and economic factors, this project leverages machine learning models to forecast feed grain prices accurately.
 
-Objective
+# Objective
 The primary objective of this project is to develop a machine learning model that predicts feed grain prices based on historical data, geographical information, and temporal factors.
 
--Table of Contents:
+# Table of Contents:
+
 Introduction
 Data Description
+Data Collection
 Data Preprocessing
+Exploratory Data Analysis (EDA)
 Feature Selection
-Model Training and Evaluation
-Hyperparameter Tuning
-Model Deployment
+Model Training
+Hyperparameter Tuning and saving the model
+Predictions
 Conclusion
 Future Work
 
-. Data Description:
+# Introduction:
+The goal of this project is to build a machine learning model that can accurately predict rfeed grain prices based on historical data, geographical information, and temporal factors.
+ 
+# Data Description:
+
+Here's a detailed description of the features 
 
 •	Source: Feed Grain dataset
 
@@ -42,35 +51,23 @@ o	Timeperiod_Desc: Time period (monthly).
 
 o	Amount: Target variable, representing the price.
 
-4. Data Collection:
-5. 
+# Data Collection:
+   
 •	The dataset is preloaded from the file "FeedGrains.csv."
 
 •	Preliminary analysis shows various commodities and their prices over time.
 
-7. Data Preprocessing - Data Cleaning:
-8. 
+#  Data Preprocessing :
+   
 •	Handle missing values in the dataset.
 
-•	Remove outliers if any, based on statistical analysis.
+•	Removing outliers .
 
-•	Address skewness in the target variable (prices) if necessary.
+•Label Encoding: Categorical features were encoded using label encoding.
 
-Key Features:
+Data Splitting: The dataset was split into training and testing sets.
 
-Data Preprocessing: Cleaning and preparing the dataset for analysis.
-
-Feature Selection: Identifying the most significant features that influence grain prices.
-
-Model Training: Implementing and training various regression models.
-
-Model Evaluation: Assessing model performance using metrics like R2 score and Mean Squared Error (MSE).
-
-Feature Importance Analysis: Understanding the impact of different features on the predicted prices.
-
-Model Saving and Loading: Techniques for saving trained models and loading them for future predictions.
-
-. Exploratory Data Analysis (EDA):
+# Exploratory Data Analysis (EDA):
 
 •	Gain insights into data distribution and patterns:
 
@@ -82,15 +79,35 @@ Model Saving and Loading: Techniques for saving trained models and loading them 
 
 4)Heatmap
 
-. Hyperparameter Tuning:
+# Feature Selection:
+RandomForestRegressor: Used to identify important features.
 
-•	Use GridSearchCV to tune hyperparameters and optimize model performance.
+# Model Training :
+Here various type regression models were trained:
 
-CONCLUSION
+Linear Regression
+Decision Tree Regressor
+Random Forest Regressor
+Gradient Boosting Regressor
+XGBoost Regressor
+
+By using these models the Random Forest Regressor is considered as the best performing model
+
+# Hyperparameter Tuning and saving the model:
+
+Use GridSearchCV to tune hyperparameters and optimize model performance.
+Best Parameters: Identified and applied to improve model performance
+Model Saving: Here we save the best performing model.
+
+# Predictions:
+After the saving abd evaluation then we will make the predictions on unseen data and then the results will be displayed.
+
+
+# Conclusion:
 
 In conclusion, The machine learning model developed in this project has successfully demonstrated its ability to predict feed grain prices with a high degree of accuracy. By leveraging historical data, geographical information, and temporal factors, the model provides valuable insights that can aid farmers, suppliers, and market analysts in making informed decisions regarding production, inventory management, and pricing strategies. The predictive power of this model can help mitigate the challenges posed by market demand fluctuations, seasonal trends, and economic factors.
 
-FUTURE WORK
+# Future work:
 
 Future work could focus on integrating additional variables such as weather patterns, global economic indicators, and more granular geographical data to further enhance the model’s accuracy and robustness. Additionally, exploring advanced machine learning techniques and models could provide even more precise predictions, thereby offering greater support to stakeholders in the agricultural sector
 
