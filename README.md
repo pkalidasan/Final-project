@@ -9,6 +9,16 @@ This project aims to predict feed grain prices, a crucial factor for the agricul
 Objective
 The primary objective of this project is to develop a machine learning model that predicts feed grain prices based on historical data, geographical information, and temporal factors.
 
+-Table of Contents:
+Introduction
+Data Description
+Data Preprocessing
+Feature Selection
+Model Training and Evaluation
+Hyperparameter Tuning
+Model Deployment
+Conclusion
+Future Work
 
 . Data Description:
 
